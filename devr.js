@@ -1,13 +1,13 @@
 window.onload = function() {
-    let divr = document.getElementById('divr')
-    if (!divr) {
-        divr = document.createElement('div');
-        document.body.appendChild(divr);
-        divr.innerText = 'Dev mode';
-        divr.id = 'devr';
+    let devr = document.getElementById('devr')
+    if (!devr) {
+        devr = document.createElement('div');
+        document.body.appendChild(devr);
+        devr.innerText = 'Dev mode';
+        devr.id = 'devr';
     }
 
-    divr.addEventListener('click', function() {
-        divr.remove()
+    devr.addEventListener('click', function() {
+        devr.remove()
     })
 }
